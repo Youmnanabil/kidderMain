@@ -41,7 +41,3 @@ Route::get('becomeTeacher',[MainController::class, 'becomeTeacher'])->name('beco
 Route::get('appointments', [MainController::class , 'appointments'])->name('appointments');
 
 Route::get('testimonials',[MainController::class, 'testimonials'])->name('testimonials');
-
-Route::get('admin', function(){
-    return view('admin.index');
-});
